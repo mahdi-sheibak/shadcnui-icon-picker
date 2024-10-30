@@ -94,6 +94,7 @@ export function IconPicker({ onChange }: Readonly<Props>) {
                     : "outline"
                 }
                 onClick={() => onSelectIcon(icon)}
+                className="visibility-auto"
               >
                 <FontAwesomeIcon icon={icon} />
               </Button>
